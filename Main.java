@@ -3,7 +3,9 @@ public class Main {
         System.out.println("* JAVA PROJECT *");
         System.out.println("***************");
         Saludo saludo = new Saludo();
+        System.out.println(saludo.generarSaludo("Mundo", "en"));
         System.out.println(saludo.generarSaludo("Mundo", "es"));
+        System.out.println(saludo.generarSaludo("Mundo", "fr"));
 
         // Añadido para Ejercicio 1
         Despedida despedida = new Despedida();
